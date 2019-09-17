@@ -1,5 +1,5 @@
 # RPiTemp
-RPiTemp is a simple script that uses data from Airly API, DHT22 thermometer and OpenWeather to display temperature (inside and outside) on a connected OLED panel.
+RPiTemp is a simple script for Raspberry Pi that uses data from Airly API, DHT22 thermometer and OpenWeather to display temperature (inside and outside) on a connected OLED panel.
 Data from Airly and OpenWeather are downloaded using a curl command (in crontab) and saved as txt files that are afterwards processed by the display.py script.
 
 It diplays (in order):
